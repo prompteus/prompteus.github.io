@@ -3,3 +3,6 @@ title: Beyond Prompt
 description: "This blog "
 author: Marek Kadlčík
 baseurl: "/"
+
+plugins:
+  - jekyll-remote-theme
