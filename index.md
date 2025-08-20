@@ -1,3 +1,5 @@
- {% for post in site.posts %}
- - [{{ post.title }}]({{ site.baseurl }}{{ post.url }}) ({{ post.date | date: "%B %d, %Y" }})
- {% endfor %}
+---
+layout: home
+title: Home
+---
+Welcome to my blog powered by Jekyll + Chirpy!
